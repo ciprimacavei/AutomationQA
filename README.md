@@ -1,0 +1,1 @@
+# AutomationQA Internship Tests
