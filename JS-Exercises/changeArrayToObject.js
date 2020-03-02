@@ -8,7 +8,7 @@ individual din array si ca valoare frecventa(numarul de aparitii al numarului in
   5: 1 //5 apare o singura data in array
 }*/
 
-
+function changeArrayToObject(){
 const array = [1, 2, 4, 2, 5, 1, 4, 2];
 //modificam proprietatea unui obiect, nu obiectul in sine
 const result = {};
@@ -20,3 +20,6 @@ for (let i = 0; i < array.length; i++) {
         result[array[i]]++;
     }
 }
+return result;}
+
+console.log(changeArrayToObject());
