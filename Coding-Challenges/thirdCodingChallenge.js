@@ -26,7 +26,7 @@ function calculatorOfTip() {
     for (i = 0; i < bills.length; i++) {
         finalCheck[i] = bills[i] + tips[i];
     }
-    return [tips, finalCheck];
+    return "The tips are: " + tips + " and the final Checks are: " + finalCheck;
 }
 
 console.log(calculatorOfTip(bills));
