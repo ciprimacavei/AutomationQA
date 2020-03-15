@@ -1,0 +1,176 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search for Labradors on Youtube and then go back and search for Poodles",
+    "line": 1,
+    "id": "search-for-labradors-on-youtube-and-then-go-back-and-search-for-poodles",
+    "tags": [],
+    "uri": "features\\exercises\\labradorYoutubeSearch.feature",
+    "elements": [
+      {
+        "id": "search-for-labradors-on-youtube-and-then-go-back-and-search-for-poodles;search-labradors-and-poodles",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search Labradors and Poodles",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user accesses Youtube",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4863000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the title should be \"YouTube\"",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user clicks on the searchbar",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "types in \"labrador\"",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "presses the search button",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user will be redirected to the page with labradors",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user goes back to the main page",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2073000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "clears the text from the searchbar",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "writes \"poodle\" in searchbar",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks on the search button",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the user will be redirected to the page with poodles",
+            "match": {
+              "location": "step-definitions\\exercises\\youtubeSearch.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "conf\\cucumber.conf.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
