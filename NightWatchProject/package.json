@@ -4,7 +4,7 @@
   "description": "Training Project",
   "main": "index.js",
   "scripts": {
-    "test": "mkdirp report && cucumber-js --require ./conf/cucumber.conf.js --require ./step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json"
+    "test": "mkdirp report && cucumber-js --require ./conf/cucumber.conf.js --require ./step-definitions --format node_modules/cucumber-pretty --format json:report/cucumber_report.json --tags @dark-mode"
   },
   "keywords": [
     "qa",

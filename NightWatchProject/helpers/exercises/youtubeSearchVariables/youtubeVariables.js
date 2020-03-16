@@ -1,7 +1,8 @@
 const youVar = {
     labradorSearch: '',
     poodleSearch: '',
-    title: 'YouTube'
+    title: 'YouTube',
+    singerSearch: ''
 };
 
 module.exports = youVar;
