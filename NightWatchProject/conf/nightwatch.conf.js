@@ -3,7 +3,7 @@ module.exports = {
     default: {
       // A default environment is always required from which the other environments inherit the settings.
       // We can overwrite any test setting for each environment as needed.
-      launch_url: 'http://timesheettest2.intern.arobs.com/#/login',
+      launch_url: '',
       globals: {
         waitForConditionPollInterval: 500,
         waitForConditionTimeout: 10000,

@@ -11,9 +11,9 @@ Feature: Check Login functionality
 
         Examples:
             | username          | password               | status      |
-            | "ciprian.macavei" | "CipriQA1919"          | successfull |
+            | "ciprian.macavei" | "correct pass"         | successfull |
             | "ciprian.macavei" | "cipri.incorrect.pass" | failed      |
-            | "cipri.macavei"   | "CipriQA1919"          | failed      |
+            | "cipri.macavei"   | "correct pass"         | failed      |
             | "cipri"           | "cipri.incorrect.pass" | failed      |
             | ""                | "CipriQA1919"          | failed      |
             | "ciprian.macavei" | ""                     | failed      |
