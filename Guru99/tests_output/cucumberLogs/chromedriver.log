@@ -1,13 +1,10 @@
 Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 4445
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1585121248.121][WARNING]: Ignoring unrecognized log type: server
-[1585121250.643][WARNING]: Timed out connecting to Chrome, retrying...
-[1585121253.445][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121253.546][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121253.647][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121253.807][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121253.979][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121254.152][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121254.672][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585121254.773][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585150608.750][WARNING]: Ignoring unrecognized log type: server
+[1585150611.457][WARNING]: Timed out connecting to Chrome, retrying...
+[1585150614.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585150614.610][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585150614.716][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585150615.657][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585150615.759][SEVERE]: Timed out receiving message from renderer: 0.100
