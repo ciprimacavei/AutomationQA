@@ -1,10 +1,20 @@
 Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 4445
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1585150608.750][WARNING]: Ignoring unrecognized log type: server
-[1585150611.457][WARNING]: Timed out connecting to Chrome, retrying...
-[1585150614.504][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585150614.610][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585150614.716][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585150615.657][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585150615.759][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160314.672][WARNING]: Ignoring unrecognized log type: server
+[1585160317.162][WARNING]: Timed out connecting to Chrome, retrying...
+[1585160319.757][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160319.859][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160319.960][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160320.061][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160320.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160320.378][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160320.593][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160320.773][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160320.963][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160321.063][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160321.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160321.742][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160322.009][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160322.110][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585160322.211][SEVERE]: Timed out receiving message from renderer: 0.100

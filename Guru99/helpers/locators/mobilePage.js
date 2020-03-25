@@ -2,11 +2,11 @@
 /* eslint-disable indent */
 /* eslint-disable prettier/prettier */
 const mobileLoc = {
-    sortByElement: () => '.sort-by select',
+    sortByElement: () => 'div.category-products > div.toolbar > div.sorter > div > select',
     sortByOption: valueOfOption => {
-        if (valueOfOption == '1') { return `.sort-by select option:nth-child(${valueOfOption})`; } //Position
-        else if (valueOfOption == '2') { return `.sort-by select option:nth-child(${valueOfOption}))`; } //Name
-        else { return `.sort-by select option:nth-child(${valueOfOption})`; } //Price
+        if (valueOfOption == '1') { return `div.category-products > div.toolbar > div.sorter > div > select > option:nth-child(${valueOfOption})`; } //Position
+        else if (valueOfOption == '2') { return `div.category-products > div.toolbar > div.sorter > div > select > option:nth-child(${valueOfOption})`; } //Name
+        else { return 'div.category-products > div.toolbar > div.sorter > div > select > option:nth-child(3)'; } //Price
     },
     sortByAscDesc: () => 'div.toolbar > div.sorter > div > a',
     viewGridMode: () => '.view-mode .grid',
