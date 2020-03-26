@@ -1,17 +1,17 @@
 [
   {
     "keyword": "Feature",
-    "name": "Verifying stock for products",
+    "name": "Verify the cost of the product",
     "line": 1,
-    "id": "verifying-stock-for-products",
+    "id": "verify-the-cost-of-the-product",
     "tags": [],
-    "uri": "features\\TC003_check_cannot_add_more_than_available_stock.feature",
+    "uri": "features\\TC002_check_cost_is_equal_in_list_and_details_page.feature",
     "elements": [
       {
-        "id": "verifying-stock-for-products;verify-that-you-cannot-add-more-product-in-cart-than-the-product-available-in-store",
+        "id": "verify-the-cost-of-the-product;verify-the-cost-of-a-product-in-the-list-page-is-equal-with-the-cost-in-the-details-page",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Verify that you cannot add more product in cart than the product available in store",
+        "name": "Verify the cost of a product in the list page is equal with the cost in the details page",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -19,104 +19,52 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the user enters the website",
+            "name": "the user accesses the website",
             "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:10"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2213000000
+              "duration": 2192000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "clicks on the mobile section",
+            "name": "the user clicks on the mobile section",
             "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:17"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 1176000000
+              "duration": 1125000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "the user clicks ADD TO CART for Sony Xperia",
+            "name": "the user clicks the Sony Xperia phone and is redirected to the details page",
             "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:22"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 1862000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "changes the quantity to \"1000\"",
-            "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:26"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2291000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "clicks Update button",
-            "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:36"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 907000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "verified the error message",
-            "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:40"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 151000000
+              "duration": 2020000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 11,
-            "name": "the user empties the cart",
+            "line": 8,
+            "name": "the costs from details page must be the same as the one from the list page",
             "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:47"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 695000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 12,
-            "name": "verifies the cart is empty",
-            "match": {
-              "location": "step-definitions\\TC003_verify_stock_more_than_order.js:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 93000000
+              "duration": 99000000
             }
           },
           {
@@ -127,7 +75,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 1000000
             }
           }
         ]

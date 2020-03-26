@@ -27,18 +27,23 @@ When(/^the user clicks the Sony Xperia phone and is redirected to the details pa
     console.log('The user selected Sony Xperia ------------>>>');
 });
 Then(/^the costs from details page must be the same as the one from the list page$/, async () => {
-    
-    const listPrice = await client.getText(mobileLoc.sonyListPrice(), function(result){
-        console.log('The list price is ------->>', result.value);
-        return result.value;
-    });
+    let listPrice, detailPrice;
+    await client.perform(() => {
+        client.getText(mobileLoc.sonyListPrice(), function (result) {
+            console.log('The list price is ------->>', result.value);
+            listPrice = result.value;
+            return listPrice;
+        });
 
-    const detailPrice = await client.getText(mobileLoc.sonyDetailPrice(), function(result){
-        console.log('The detail price is -------->>>', result.value);
-        return result.value;
-    });
-    
+        client.getText(mobileLoc.sonyDetailPrice(), function (result) {
+            console.log('The detail price is -------->>>', result.value);
+            detailPrice = result.value;
+            return detailPrice;
+        });
+    }).perform(() => {
+
         if (listPrice == detailPrice) {
             console.log('The price of List is ', listPrice, ' and matches the Detail price which is ', detailPrice);
         }
+    });
 });
