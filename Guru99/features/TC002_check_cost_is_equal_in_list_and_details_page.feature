@@ -4,7 +4,5 @@ Feature: Verify the cost of the product
 
         Given the user accesses the website
         And the user clicks on the mobile section
-        When the user reads the "price" of the "Sony Experia" phone from the list page
-        And the user clicks on the Sony Experia phone
-        And the user reads the "price" of the "Sony Experia" phone from the details page
-        Then the costs must be the same
+        When the user clicks the Sony Xperia phone and is redirected to the details page
+        Then the costs from details page must be the same as the one from the list page

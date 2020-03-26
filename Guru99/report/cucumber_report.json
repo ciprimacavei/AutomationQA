@@ -1,17 +1,17 @@
 [
   {
     "keyword": "Feature",
-    "name": "Verify items can be sorted by Name",
+    "name": "Verify the cost of the product",
     "line": 1,
-    "id": "verify-items-can-be-sorted-by-name",
+    "id": "verify-the-cost-of-the-product",
     "tags": [],
-    "uri": "features\\TC001_check_order_mobile_products.feature",
+    "uri": "features\\TC002_check_cost_is_equal_in_list_and_details_page.feature",
     "elements": [
       {
-        "id": "verify-items-can-be-sorted-by-name;verify-mobile-items-are-sorted-by-name",
+        "id": "verify-the-cost-of-the-product;verify-the-cost-of-a-product-in-the-list-page-is-equal-with-the-cost-in-the-details-page",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Verify mobile items are sorted by name",
+        "name": "Verify the cost of a product in the list page is equal with the cost in the details page",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -19,52 +19,52 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the user launches the website",
+            "name": "the user accesses the website",
             "match": {
-              "location": "step-definitions\\TC001_verify_items_sorted_by_name.js:10"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 2073000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 6,
-            "name": "the user clicks the mobile section",
-            "match": {
-              "location": "step-definitions\\TC001_verify_items_sorted_by_name.js:16"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 998000000
+              "duration": 1907000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 7,
-            "name": "selects Name as the desired option from the Sort By list",
+            "line": 6,
+            "name": "the user clicks on the mobile section",
             "match": {
-              "location": "step-definitions\\TC001_verify_items_sorted_by_name.js:21"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2580000000
+              "duration": 898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user clicks the Sony Xperia phone and is redirected to the details page",
+            "match": {
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1610000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "a list of products will be displayed sorted by name",
+            "name": "the costs from details page must be the same as the one from the list page",
             "match": {
-              "location": "step-definitions\\TC001_verify_items_sorted_by_name.js:28"
+              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 475000000
+              "duration": 61000000
             }
           },
           {

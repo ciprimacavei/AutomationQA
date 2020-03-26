@@ -11,6 +11,7 @@ const mobileLoc = {
     sortByAscDesc: () => 'div.toolbar > div.sorter > div > a',
     viewGridMode: () => '.view-mode .grid',
     viewGridList: () => '.view-mode .list',
+    sonyPicture: () => '#product-collection-image-1',
     phoneType: index => {
         switch (index) {
             case 1:
@@ -24,7 +25,9 @@ const mobileLoc = {
                 break;
         }
     },
-    sonyPrice: () => '#product-price-1 .price',
+    sonyListPrice: () => '#product-price-1 span',
+    //Locators for Sony Xperia item
+    sonyDetailPrice: () => '#product-price-1 .price',
     sonyDetailName: () => '.product-name .h1'
 };
 
