@@ -1,17 +1,17 @@
 [
   {
     "keyword": "Feature",
-    "name": "Verify the cost of the product",
+    "name": "Verify popup window",
     "line": 1,
-    "id": "verify-the-cost-of-the-product",
+    "id": "verify-popup-window",
     "tags": [],
-    "uri": "features\\TC002_check_cost_is_equal_in_list_and_details_page.feature",
+    "uri": "features\\TC004_check_products_compare_popup.feature",
     "elements": [
       {
-        "id": "verify-the-cost-of-the-product;verify-the-cost-of-a-product-in-the-list-page-is-equal-with-the-cost-in-the-details-page",
+        "id": "verify-popup-window;verify-that-you-are-able-to-compare-two-products",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Verify the cost of a product in the list page is equal with the cost in the details page",
+        "name": "Verify that you are able to compare two products",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -19,52 +19,78 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the user accesses the website",
+            "name": "the user will access the website",
             "match": {
-              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:14"
+              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2192000000
+              "duration": 2387000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user clicks on the mobile section",
+            "name": "the user will access the mobile section",
             "match": {
-              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:20"
+              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 1125000000
+              "duration": 1836000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "the user clicks the Sony Xperia phone and is redirected to the details page",
+            "name": "the user will click Compare button for two different products",
             "match": {
-              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:25"
+              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 2020000000
+              "duration": 1783000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "click the compare button on the right of the screen",
+            "match": {
+              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 8,
-            "name": "the costs from details page must be the same as the one from the list page",
+            "line": 9,
+            "name": "a pop-up of the compared products appears",
             "match": {
-              "location": "step-definitions\\TC002_verify_cost_equal_list_details_page.js:29"
+              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 99000000
+              "duration": 8392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user will close the pop-up windows",
+            "match": {
+              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
             }
           },
           {
@@ -75,7 +101,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ]

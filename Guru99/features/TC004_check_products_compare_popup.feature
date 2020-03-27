@@ -5,5 +5,6 @@ Feature: Verify popup window
         Given the user will access the website
         And the user will access the mobile section
         When the user will click Compare button for two different products
-        And the products appear in the pop-up window
-        Then the user will close the pop-up windows
+        And click the compare button on the right of the screen
+        Then a pop-up of the compared products appears
+        And the user will close the pop-up windows
