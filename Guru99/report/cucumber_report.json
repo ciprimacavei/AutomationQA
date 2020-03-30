@@ -1,17 +1,17 @@
 [
   {
     "keyword": "Feature",
-    "name": "Verify popup window",
+    "name": "Created account and shared wishlist",
     "line": 1,
-    "id": "verify-popup-window",
+    "id": "created-account-and-shared-wishlist",
     "tags": [],
-    "uri": "features\\TC004_check_products_compare_popup.feature",
+    "uri": "features\\TC005_check_account_created_wishlist_sent.feature",
     "elements": [
       {
-        "id": "verify-popup-window;verify-that-you-are-able-to-compare-two-products",
+        "id": "created-account-and-shared-wishlist;verify-you-can-create-account-in-e-commerce-site-and-can-share-wishlist-to-other-people-using-email",
         "keyword": "Scenario",
         "line": 3,
-        "name": "Verify that you are able to compare two products",
+        "name": "Verify you can create account in E-commerce site and can share wishlist to other people using email",
         "tags": [],
         "type": "scenario",
         "steps": [
@@ -19,78 +19,130 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "the user will access the website",
+            "name": "the user will launch the app",
             "match": {
-              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:10"
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 2387000000
+              "duration": 2325000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 6,
-            "name": "the user will access the mobile section",
+            "name": "clicks on my account link",
             "match": {
-              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:15"
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 1836000000
+              "duration": 1401000000
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "line": 7,
-            "name": "the user will click Compare button for two different products",
+            "name": "clicks on Create Account link and enters valid credentials",
             "match": {
-              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:19"
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:20"
             },
             "result": {
               "status": "passed",
-              "duration": 1783000000
+              "duration": 3206000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "click the compare button on the right of the screen",
+            "name": "clicks Register and verifies the registration is done",
             "match": {
-              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:25"
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 266000000
+              "duration": 3348000000
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
+            "keyword": "When ",
             "line": 9,
-            "name": "a pop-up of the compared products appears",
+            "name": "the user navigates to TV menu",
             "match": {
-              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:29"
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:49"
             },
             "result": {
               "status": "passed",
-              "duration": 8392000000
+              "duration": 1107000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "the user will close the pop-up windows",
+            "name": "adds a product to the wishlist",
             "match": {
-              "location": "step-definitions\\TC004_verify_products_compared_in_popup_window.js:55"
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:53"
             },
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 1311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "clicks on Share wishlist",
+            "match": {
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "in the next page the user enters an email and a message",
+            "match": {
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "clicks Share wishlist",
+            "match": {
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the wishlist must be shared",
+            "match": {
+              "location": "step-definitions\\TC005_verify_account_wishlist_sent.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217000000
             }
           },
           {
@@ -101,7 +153,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 0
             }
           }
         ]

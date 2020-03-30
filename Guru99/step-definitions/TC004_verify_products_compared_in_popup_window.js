@@ -48,8 +48,9 @@ Then(/^a pop-up of the compared products appears$/, async () => {
         });
     }).perform(() => {
         if (sony == compareVar.firstPhone && iphone == compareVar.secondPhone)
-            console.log('The user checked the phones');
-            console.log('The phones are -------->>', sony, 'and --------->>', iphone);
+            return sony;
+        console.log('The user checked the phones');
+        console.log('The phones are -------->>', sony, 'and --------->>', iphone);
     });
 });
 Then(/^the user will close the pop-up windows$/, async () => {
