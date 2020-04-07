@@ -27,6 +27,7 @@ module.exports = {
         browserName: 'chrome',
         chromeOptions: {
           args: [
+            //'--headless',
             'start-maximized',
             'disable-web-security',
             'safebrowsing-disable-download-protection',

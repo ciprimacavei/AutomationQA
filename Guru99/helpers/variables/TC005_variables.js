@@ -9,7 +9,9 @@ const confirmation = {
     pass: 'cecece',
     confirmPass: '12345ceceC',
     emailToReceive: 'ce@gmail.com',
-    messageToReceive: 'This is my newest TC'
+    messageToReceive: 'This is my newest TC',
+    order: 'Pending',
+    filePath: 'C:/Users/spook/OneDrive/Desktop/Print Order # 100011453'
 };
 
 module.exports = confirmation;

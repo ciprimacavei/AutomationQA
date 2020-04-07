@@ -10,29 +10,22 @@ const compareVar = require('../../Guru99/helpers/variables/TC004_variables');
 Given(/^the user will access the website$/, async () => {
     await client.url('http://live.demoguru99.com');
     await client.assert.elementPresent(mainLoc.mobileButton());
-    console.log('The user has launched the website ------>>');
 });
 Given(/^the user will access the mobile section$/, async () => {
     await client.click(mainLoc.mobileButton());
-    console.log('The user has accessed the Mobile section ----------->>');
 });
 When(/^the user will click Compare button for two different products$/, async () => {
     await client.click(compareLoc.compareButtonOfPhone(1));
-    console.log('The user clicked the Add to compare button of the first phone ----------->>');
     await client.click(compareLoc.compareButtonOfPhone(2));
-    console.log('The user clicked the Add to compare button of the second phone ------------>>');
 });
 When(/^click the compare button on the right of the screen$/, async () => {
     await client.click(compareLoc.compareButton());
-    console.log('The user clicked the Compare button ---------->>');
 });
 Then(/^a pop-up of the compared products appears$/, async () => {
     await client.windowHandles(function (result) {
         let popup = result.value[1];
         this.switchWindow(popup);
-        console.log('The user switched to the popup ----->>>>');
         this.maximizeWindow();
-        console.log('The user maximized the popup ------------->>');
     });
     let sony, iphone;
     await client.perform(() => {
@@ -55,5 +48,4 @@ Then(/^a pop-up of the compared products appears$/, async () => {
 });
 Then(/^the user will close the pop-up windows$/, async () => {
     await client.click(compareLoc.closePopUp());
-    console.log('The popup has been closed ----------->>>');
 });

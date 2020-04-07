@@ -1,16 +1,18 @@
 Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 4445
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1585566712.079][WARNING]: Ignoring unrecognized log type: server
-[1585566714.579][WARNING]: Timed out connecting to Chrome, retrying...
-[1585566717.240][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566717.341][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566717.442][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566717.615][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566717.794][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566717.992][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566718.148][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566718.356][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566718.457][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566719.789][SEVERE]: Timed out receiving message from renderer: 0.100
-[1585566732.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247898.507][WARNING]: Ignoring unrecognized log type: server
+[1586247901.246][WARNING]: Timed out connecting to Chrome, retrying...
+[1586247904.339][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247904.442][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247904.549][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247904.652][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247904.921][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247905.488][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247905.596][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247905.699][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247906.644][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247907.043][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247907.163][SEVERE]: Timed out receiving message from renderer: 0.100
+[1586247911.358][WARNING]: Timed out connecting to Chrome, retrying...
+[1586247915.390][WARNING]: Timed out connecting to Chrome, retrying...

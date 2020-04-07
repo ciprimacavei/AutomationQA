@@ -6,6 +6,8 @@ const TC006 = {
     loginEmail: () => '#email',
     loginPass: () => '#pass',
     loginButton:()=> '#send2',
+    myOrdersLink: () => 'div.block-content > ul > li:nth-child(4) > a',
+    viewOrderLink: () => 'tr.first.odd > td.a-center.view.last > span > a:nth-child(1)',
     myWishlistTitle: () => '.my-wishlist h1',
     myWishlistLink: () => 'ul > li:nth-child(8) > a',
     addToCartButton: () => 'button[type="button"][title="Add to Cart"]',
@@ -18,7 +20,7 @@ const TC006 = {
     estimateLink: () => '.buttons-set span span',
     estimatedCost: () => 'dd > ul > li > label span',
     flatRate: () => '.radio',
-    updateTotal: () => 'button[name="do"]',
+    updateTotal: () => 'button[title="Update Total"]',
     priceBeforeFixedCost: () => 'td:nth-child(2) > strong > span',
     totalCost: () => 'label .price',
     proceedToCheckoout: () => '.cart-totals ul li button[title="Proceed to Checkout"]',
@@ -28,7 +30,9 @@ const TC006 = {
     checkOrMoneyContinueButton: () => '#payment-buttons-container > button',
     placeOrder: () => '#review-buttons-container > button',
     confirmationOrder: () => '.page-title h1',
-    orderNumber: () => 'p:nth-child(3) > a'
+    orderNumber: () => 'p:nth-child(3) > a',
+    orderStatus: () => '#my-orders-table > tbody > tr.first.odd > td.status > em',
+    printOrder: () => '.link-print'
 };
 
 module.exports=TC006;

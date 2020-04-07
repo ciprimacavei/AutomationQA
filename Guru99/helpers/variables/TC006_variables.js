@@ -6,7 +6,7 @@ const purchase ={
     postCode: '4004152',
     checkoutTitle: 'Checkout',
     countryValue: 'Romania',
-    countyValue: 'Cluj'
+    countyValue: 'Cluj',
 };
 
 module.exports=purchase;
