@@ -7,7 +7,7 @@ public class CompareButton {
             return "li:nth-child(1) > div > div.actions > ul > li:nth-child(2) > a";
         }
         else if(index ==2){
-            return "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[2]/div/div[3]/ul/li[2]/a";
+            return "ul li:nth-child(2) div div.actions ul li:nth-child(2) a";
         }
         else {
             return "li:nth-child(3) > div > div.actions > ul > li:nth-child(2) > a";
